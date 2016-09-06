@@ -4,7 +4,7 @@ import socket
 import subprocess
 
 s = socket.socket()
-host = ''
+host = 'localhost'
 port = 9999
 s.connect((host, port))
 
